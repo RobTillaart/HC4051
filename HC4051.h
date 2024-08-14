@@ -57,8 +57,9 @@ public:
         //  only write changed pins. //  AVR only?
         if (mask & _changed)
         {
-          digitalWrite(_pins[i--], (mask & _new));
+          digitalWrite(_pins[i], (mask & _new));
         }
+        i--;
         mask >>= 1;
       }
       enable();
