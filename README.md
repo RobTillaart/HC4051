@@ -41,15 +41,18 @@ Version 0.3.0 has a bugfix for **setChannel()** which obsolete all previous vers
 
 ### Compatibles
 
-Some compatible types, only one explicitly tested.
+- https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf
 
-| name        |  verified  |  Notes  |
-|:------------|:----------:|:-------:|
-| 74HC4051    |     Y      |  CMOS
-| 74HCT4051   |     n      |  TTL
-| CD74HC4051  |     n      |
-| MC74HC4051A |     n      |  up to 10 Volts
-| CD4051BE    |     n      |  up to 20 Volts
+Some compatible types, only one explicitly tested.
+Check data sheets for details.
+
+|  name         |  verified  |  Notes  |
+|:--------------|:----------:|:-------:|
+|  74HC4051     |     Y      |  CMOS
+|  74HCT4051    |     n      |  TTL
+|  CD74HC4051   |     n      |
+|  MC74HC4051A  |     n      |  up to 10 Volts
+|  CD4051BE     |     n      |  up to 20 Volts
 
 If you have experience with any variant, please let me know.
 
